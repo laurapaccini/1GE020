@@ -1,0 +1,44 @@
+name: 1geo20
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+
+  # Jupyter, para correr notebooks en VSCode y JupyterLab
+  - jupyterlab
+  - ipykernel
+
+  # Tema 1: fundamentos
+  - numpy
+
+  # Tema 2: datos tabulares
+  - pandas
+
+  # Tema 3: visualización
+  - matplotlib
+
+  # Temas 4-5: NetCDF, xarray, proyecciones climáticas
+  - xarray
+  - netcdf4
+  - h5netcdf      # necesario para abrir archivos .hdf5 
+  - dask          # cómputo diferido, recomendado por xarray para datasets grandes
+  - cftime        # manejo de fechas en calendarios no estándar (modelos climáticos)
+
+  # Tema 6: imágenes satelitales y datos ráster
+  - geopandas
+  - rasterio
+  - rioxarray
+  - cartopy
+  - pystac-client       # acceso a catálogos STAC
+  - planetary-computer  # acceso a Microsoft Planetary Computer
+
+  # Tema 7: clasificación y regresión
+  - scikit-learn
+
+  # Tema 10: mapas interactivos y comunicación de resultados
+  - folium
+  - plotly
+
+  # Utilidades generales
+  - scipy
+  - seaborn
