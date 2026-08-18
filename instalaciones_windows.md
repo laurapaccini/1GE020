@@ -44,6 +44,11 @@ Cierra VSCode por completo y ábrelo de nuevo. Verifica:
 conda --version
 ```
 
+> **Si el comando de arriba da el error "No such file or directory":** la ruta asumida (`$USERPROFILE/miniforge3`) no es la ruta real en esta máquina, algo común en computadoras institucionales con perfiles redirigidos. Abre **Miniforge Prompt** desde el menú Inicio y corre `where conda` para encontrar la ubicación exacta del ejecutable (por ejemplo, puede estar en `AppData\Local\miniforge3` en vez de directamente en la carpeta de usuario). Usa esa ruta real en el comando de inicialización, con `/` en vez de `\`, por ejemplo:
+> ```bash
+> "/c/Users/usuario/AppData/Local/miniforge3/Scripts/conda.exe" init bash
+> ```
+
 ## 5. Configurar identidad de Git (una sola vez)
 
 ```bash
