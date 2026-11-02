@@ -1,0 +1,3 @@
+aoi,anio,bbox,escena,fecha,nubosidad_escena_pct,pixeles_enmascarados_caja_pct,linea_base,bandas
+puerto_maldonado,2025,"[-69.3, -12.7, -69.1, -12.5]",S2A_MSIL2A_20250731T144751_R139_T19LDG_20250731T214703,2025-07-31,0.030412,0.0,05.11,B02 B03 B04 B08 B11 B12
+la_pampa,2025,"[-70.5, -13.05, -70.3, -12.85]",S2C_MSIL2A_20250811T145741_R039_T19LCF_20250811T193459,2025-08-11,13.222013,0.0,05.11,B02 B03 B04 B08 B11 B12
