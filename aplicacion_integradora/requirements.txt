@@ -1,0 +1,8 @@
+numpy
+xarray
+matplotlib
+rasterio
+netCDF4
+requests
+earthengine-api
+jupyter
